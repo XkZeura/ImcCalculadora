@@ -1,0 +1,58 @@
+h1, h2{
+    color: aquamarine;
+}
+
+h1{
+    margin-block-start: 0em;
+    color: cadetblue;
+}
+
+.input_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input_area2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    height:1.5em;
+
+}
+
+.container{
+    background-color: black;
+    display: inline-flex;
+    padding: 1em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 2em;
+}
